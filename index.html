@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Technical Task</title>
+    <link href="https://kendo.cdn.telerik.com/2022.1.119/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="https://kendo.cdn.telerik.com/2022.1.119/styles/kendo.default.min.css" rel="stylesheet" />
+    <script src="https://kendo.cdn.telerik.com/2022.1.119/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.1.119/js/kendo.all.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="section-one">
+        <div class="icon-container">
+          <img width="40" id="agents" src="icons_section1/Agents.svg" alt="" />
+          <p>Agents</p>
+        </div>
+        <div class="icon-container">
+          <img width="40" src="icons_section1/Teams.svg" alt="" />
+          <p>Teams</p>
+        </div>
+        <div class="icon-container">
+          <img width="40" src="icons_section1/Queues.svg" alt="" />
+          <p>Queues</p>
+        </div>
+        <div class="icon-container">
+          <img width="40" src="icons_section1/Workflow.svg" alt="" />
+          <p>Workflows</p>
+        </div>
+        <div class="icon-container">
+          <img width="40" src="icons_section1/Settings.svg" alt="" />
+          <p>Settings</p>
+        </div>
+        <div class="icon-container">
+          <img width="40" src="icons_section1/Variables.svg" alt="" />
+          <p>Variables</p>
+        </div>
+        <div class="icon-container">
+          <img width="40" src="icons_section1/Audio.svg" alt="" />
+          <p>Audio</p>
+        </div>
+      </section>
+      <section class="section-two">
+        <div class="actions-container">
+          <h2 class="title">General Actions</h2>
+          <img
+            src="icons_section2/Check_Date_And_Time.svg"
+            alt=""
+            title="Check date and time"
+          />
+          <img
+            src="icons_section2/Compare_Data.svg"
+            alt=""
+            title="Compare data"
+          />
+          <img
+            src="icons_section2/Finish_Workflow.svg"
+            alt=""
+            title="Finish workflow"
+          />
+          <img
+            src="icons_section2/Connect_to_Web_Service.svg"
+            alt=""
+            title="Connect to web service"
+          />
+          <img
+            src="icons_section2/Debug_Output.svg"
+            alt=""
+            title="Debug output"
+          />
+          <img
+            src="icons_section2/Manipulate_Data.svg"
+            alt=""
+            title="Manipulate data"
+          />
+          <img
+            src="icons_section2/Incoming_Route.svg"
+            alt=""
+            title="Incoming Route"
+          />
+          <img
+            src="icons_section2/Pause_Workflow.svg"
+            alt=""
+            title="Pause Workflow"
+          />
+          <img
+            src="icons_section2/Outgoing_route.svg"
+            alt=""
+            title="Outgoing route"
+          />
+        </div>
+        <div class="actions-container">
+          <h2 class="title">Chat Actions</h2>
+          <img
+            src="icons_section2/Send Chat Message.svg"
+            alt=""
+            title="Send chat message"
+          />
+          <img src="icons_section2/Route_Chat.svg" alt="" title="Route chat" />
+          <img
+            src="icons_section2/Wait_for_Chat_Message.svg"
+            alt=""
+            title="Wait for chat message"
+          />
+        </div>
+        <div class="actions-container">
+          <h2 class="title">Datebase Actions</h2>
+          <img
+            src="icons_section2/Database_Query.svg"
+            alt=""
+            title="Database query"
+          />
+          <img
+            src="icons_section2/Disconnect_from_Database.svg"
+            alt=""
+            title="Disconnect from database"
+          />
+          <img
+            src="icons_section2/Connect_to_Database.svg"
+            alt=""
+            title="Connect to database"
+          />
+          <img
+            src="icons_section2/Database_Next_Record.svg"
+            alt=""
+            title="Database next record"
+          />
+        </div>
+        <div class="actions-container">
+          <h2 class="title">Email Actions</h2>
+          <img
+            src="icons_section2/Process_Email.svg"
+            alt=""
+            title="Process email"
+          />
+          <img src="icons_section2/Send_Email.svg" alt="" title="Send email" />
+          <img
+            src="icons_section2/Wait_for_Email.svg"
+            alt=""
+            title="Wait for email"
+          />
+          <img
+            src="icons_section2/Route_Email.svg"
+            alt=""
+            title="Route email"
+          />
+        </div>
+        <div class="actions-container">
+          <h2 class="title">Contact Actions</h2>
+          <img
+            src="icons_section2/Remove_Skill_from_Contact.svg"
+            alt=""
+            title="Remove skill from contact"
+          />
+          <img
+            src="icons_section2/Dequeue_Contact.svg"
+            alt=""
+            title="Dequeue contact"
+          />
+          <img
+            src="icons_section2/Queue_Contact.svg"
+            alt=""
+            title="Queue contact"
+          />
+          <img
+            src="icons_section2/Add_Skill_to_Contact.svg"
+            alt=""
+            title="Add skill to contact"
+          />
+        </div>
+        <div class="actions-container">
+          <h2 class="title">Call Actions</h2>
+          <img src="icons_section2/Route_Call.svg" alt="" title="Route Call" />
+          <img
+            src="icons_section2/Wait_for_Chat_Message.svg"
+            alt=""
+            title="Wait for chat message"
+          />
+          <img
+            src="icons_section2/Wait_for_Call.svg"
+            alt=""
+            title="Wait for call"
+          />
+        </div>
+      </section>
+      <section class="section-three">
+
+        <div id="diagram"></div>
+      </section>
+    </div>
+ 
+    <script src="index.js"></script>
+  </body>
+</html>
